@@ -379,6 +379,7 @@ a:focus {
   background-color: #fcfcfd;
   padding: 15px;
   margin: 15px 0;
+  border-radius: 5%
 }
 
 .feature_section .box .head-box {
@@ -453,6 +454,7 @@ a:focus {
   box-sizing: border-box; /* Ensure padding and border are included in the box size */
   /* min-width: 200px; /* Set a minimum width if necessary */
   min-height: 200px; /* Set a minimum width if necessary */
+  border-radius: 5%
 }
 
 .download_section .box .head-box {
