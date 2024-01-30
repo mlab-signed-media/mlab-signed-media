@@ -72,7 +72,7 @@ body {
 .heading_container {
   h2 {
     font-weight: bold;
-    color: #1d1e31;
+    color: #0c0c0c;
     text-align: center;
     position: relative;
     padding-bottom: 10px;
@@ -102,7 +102,7 @@ body {
   position: relative;
   background: linear-gradient(to right,
       #f2f7fd 50%,
-      #1d1e31 45%,
+      #0c0c0c 45%,
 
     );
 }
@@ -339,7 +339,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn(#1d1e31, $white, 10px, 60px, 0);
+      @include hero_btn(#0c0c0c, $white, 10px, 60px, 0);
       text-transform: uppercase;
       margin-top: 35px;
     }
@@ -363,7 +363,7 @@ a:focus {
   }
 
   .carousel-control-prev {
-    background-color: #1d1e31;
+    background-color: #0c0c0c;
     top: 80px;
     background-image: url(../images/left-arrow.png);
     background-position: 14px center;
@@ -388,7 +388,7 @@ a:focus {
       margin: 0;
       width: 30px;
       height: 30px;
-      background-color: #1d1e31;
+      background-color: #0c0c0c;
       opacity: 1;
 
       &.active {
