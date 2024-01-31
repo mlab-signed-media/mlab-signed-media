@@ -31,6 +31,16 @@
 }
 
 @media (max-width: 768px) {
+
+    .feature_section .box .head-box h4 {
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+    .slider_section .detail-box div {
+        text-align: center;
+    }
+
     .hero_area {
         background: linear-gradient(to bottom, #f2f7fd 50%, #0c0c0c 45%);
     }
