@@ -4,6 +4,10 @@ body {
   background-color: #ffffff;
 }
 
+.tracksy-text {
+  font-family: 'MuseoModerno', sans-serif;
+}
+
 .layout_margin {
   margin: 90px 0;
 }
@@ -308,7 +312,7 @@ a:focus {
   padding: 10px 60px;
   background-color: #0c0c0c;
   color: #fefdfc;
-  border-radius: 0;
+  border-radius: 15px;
   border: 1px solid #0c0c0c;
   text-transform: uppercase;
   margin-top: 35px;
@@ -336,7 +340,7 @@ a:focus {
 }
 
 .slider_section .carousel-control-prev {
-  background-color: #0c0c0c;
+  background-color: #171717;
   top: 80px;
   background-image: url(../images/left-arrow.png);
   background-position: 14px center;
@@ -409,6 +413,11 @@ a:focus {
 .feature_section .box .head-box h6 {
   font-weight: bold;
   font-size: 18px;
+}
+
+.feature_section .box .head-box h4 {
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .feature_section .box .detail-box {
